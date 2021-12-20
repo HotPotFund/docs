@@ -1,0 +1,135 @@
+{
+    "title": "HotPot Fund Docs",
+    "description": "The Hotpot Fund is a transparent fund project on the public blockchain, consisting of a set of smart contracts deployed on the Ethereum blockchain.",
+    "author": "hotpot",
+    "output.name": "site",
+    "//language": "Gitbook support language: en, zh-hans, zh-tw, ar, bn, cs, de, en, es, fa, fi, fr, he, it, ja, ko, no, pl, pt, ro, ru, sv, uk, vi",
+    "language": "en",
+    "gitbook": ">=2.6.9",
+    "root": ".",
+    "links": {
+        "-sidebar": {
+            "Go Home": "https://docs.hotpot.fund"
+        }
+    },
+    "plugins": [
+        "-highlight",
+        "prism",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "-sharing",
+        "sharing-plus",
+        "fontsettings",
+        "livereload",
+
+        "-summary",
+        "multipart",
+
+        "hide-element",
+        "insert-logo",
+        "pageview-count",
+        "-theme-comscore",
+        "-favicon",
+        "custom-favicon",
+        "github",
+        "code",
+        "splitter",
+        "tbfed-pagefooter",
+        "-toggle-chapters",
+        "-expandable-chapters",
+        "expandable-chapters-small",
+        "-ancre-navigation",
+        "anchor-navigation-ex"
+    ],
+    "pluginsConfig": {
+        "-favicon": {
+            "shortcut": "/assets/imgs/favicon.ico",
+            "bookmark": "/assets/imgs/favicon.ico",
+            "appleTouch": "/assets/imgs/apple-touch-icon.png",
+            "appleTouchMore": {
+                "120x120": "/assets/imgs/apple-touch-icon-120x120.png",
+                "180x180": "/assets/imgs/apple-touch-icon-180x180.png"
+            }
+        },
+        "favicon": "/assets/imgs/favicon.ico",
+        "insert-logo": {
+            "url": "/assets/imgs/logo.png",
+            "style": "background: none; max-height: 100px; min-height: 100px"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "theme-default": {
+            "showLevel": true
+        },
+        "fontsettings":{
+            "theme":"sepia",
+            "family":"sans",
+            "size":1
+        },
+        "github": {
+            "url": "https://github.com/HotPotFund"
+        },
+        "code": {
+            "copyButtons": true
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © hotpot fund 2021",
+            "modify_label": "Updated At：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "expandable-chapters":{},
+        "expandable-chapters-small":{},
+        "sharing": {
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "douban": false,
+            "weibo": false,
+         "all": [
+              "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo",
+              "messenger","qq", "qzone","viber","whatsapp"
+          ]
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-solarizedlight.css"
+            ],
+            "lang": {
+                "flow": "typescript"
+            }
+        },
+        "anchor-navigation-ex": {
+            "showLevel": true,
+            "associatedWithSummary": true,
+            "printLog": false,
+            "multipleH1": true,
+            "mode": "float",
+            "showGoTop":true,
+            "float": {
+                "floatIcon": "fa fa-navicon",
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            },
+            "pageTop": {
+                "showLevelIcon": false,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        }
+    },
+    "styles": {
+        "website": "assets/styles/website.less",
+        "ebook": "assets/styles/ebook.less",
+        "pdf": "assets/styles/pdf.less",
+        "mobi": "assets/styles/mobi.less",
+        "epub": "assets/styles/epub.less"
+    }
+}
