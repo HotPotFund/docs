@@ -23,7 +23,7 @@
         "fontsettings",
         "livereload",
 
-        "-summary",
+        "summary",
         "multipart",
 
         "hide-element",

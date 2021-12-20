@@ -1,2 +1,0 @@
-- [Overview](README.md)
-- [Get Started](Get Started.md)
