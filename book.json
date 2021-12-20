@@ -12,6 +12,9 @@
             "Go Home": "https://docs.hotpot.fund"
         }
     },
+        "summary":"SUMMARY.md",
+        "glossary":"GLOSSARY.md"
+    },
     "plugins": [
         "-highlight",
         "prism",
@@ -104,7 +107,7 @@
             }
         },
         "anchor-navigation-ex": {
-            "showLevel": true,
+            "showLevel": false,
             "associatedWithSummary": true,
             "printLog": false,
             "multipleH1": true,
