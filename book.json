@@ -12,6 +12,8 @@
             "Go Home": "https://docs.hotpot.fund"
         }
     },
+    "structure":{
+        "readme":"READMEA.md",
         "summary":"SUMMARY.md",
         "glossary":"GLOSSARY.md"
     },
