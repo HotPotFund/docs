@@ -46,8 +46,7 @@
         "expandable-chapters-small",
         "-ancre-navigation",
         "anchor-navigation-ex",
-        "latex-codecogs",
-        "theme-latex"
+        "latex-codecogs"
     ],
     "pluginsConfig": {
         "-favicon": {
