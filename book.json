@@ -30,10 +30,10 @@
 
         "summary",
         "multipart",
+        "language-picker",
 
         "hide-element",
         "insert-logo",
-        "pageview-count",
         "-theme-comscore",
         "-favicon",
         "custom-favicon",
@@ -64,13 +64,13 @@
             "style": "background: none; max-height: 100px; min-height: 100px"
         },
         "hide-element": {
-            "elements": [".gitbook-link"]
+            "elements": [""]
         },
         "theme-default": {
             "showLevel": true
         },
         "fontsettings":{
-            "theme":"sepia",
+            "theme":"white",
             "family":"sans",
             "size":1
         },
@@ -88,18 +88,11 @@
         "expandable-chapters":{},
         "expandable-chapters-small":{},
         "sharing": {
-            "facebook": true,
-            "twitter": true,
-            "google": true,
-            "pocket": false,
-            "qq": false,
-            "qzone": false,
-            "douban": false,
-            "weibo": false,
-         "all": [
-              "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo",
-              "messenger","qq", "qzone","viber","whatsapp"
-          ]
+            "douban":false, "weibo":false, "qq":false, "qzone":false,
+            "all": [
+                "facebook", "instapaper", "linkedin", "twitter", "whatsapp", 
+                "google", "pocket"
+            ]
         },
         "prism": {
             "css": [
@@ -129,6 +122,9 @@
                 "level2Icon": "fa fa-hand-o-right",
                 "level3Icon": "fa fa-hand-o-right"
             }
+        },
+        "language-picker": {
+            "grid-columns": 3
         }
     },
     "styles": {
