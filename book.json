@@ -41,7 +41,7 @@
         "code",
         "splitter",
         "tbfed-pagefooter",
-        "-toggle-chapters",
+        "toggle-chapters",
         "-expandable-chapters",
         "expandable-chapters-small",
         "-ancre-navigation",

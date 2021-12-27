@@ -18,6 +18,45 @@
 
 ## 开发者
 
-- [合约地址](3-开发者/1-合约地址.md)
-- [合约介绍](3-开发者/2-合约介绍.md)
-- [代码仓库](3-开发者/3-代码仓库.md)
+- [GitHub](3-开发者/1-GitHub.md)
+- [合约介绍](3-开发者/2-合约介绍/README.md)
+
+    - [Base](3-开发者/2-合约介绍/1-base/README.md)
+
+        - [HotPotV3FundERC20](3-开发者/2-合约介绍/1-base/HotPotV3FundERC20.md)
+        - [Multicall](3-开发者/2-合约介绍/1-base/Multicall.md)
+    - [Interfaces](3-开发者/2-合约介绍/2-interfaces/README.md)
+
+        - [Controller](3-开发者/2-合约介绍/2-interfaces/1-controller/README.md)
+
+            - [IControllerEvents](3-开发者/2-合约介绍/2-interfaces/1-controller/IControllerEvents.md)
+            - [IControllerState](3-开发者/2-合约介绍/2-interfaces/1-controller/IControllerState.md)
+            - [IGovernanceActions](3-开发者/2-合约介绍/2-interfaces/1-controller/IGovernanceActions.md)
+            - [IManagerActions](3-开发者/2-合约介绍/2-interfaces/1-controller/IManagerActions.md)
+        - [Fund](3-开发者/2-合约介绍/2-interfaces/2-fund/README.md)
+
+            - [IHotPotV3FundEvents](3-开发者/2-合约介绍/2-interfaces/2-fund/IHotPotV3FundEvents.md)
+            - [IHotPotV3FundManagerActions](3-开发者/2-合约介绍/2-interfaces/2-fund/IHotPotV3FundManagerActions.md)
+            - [IHotPotV3FundState](3-开发者/2-合约介绍/2-interfaces/2-fund/IHotPotV3FundState.md)
+            - [IHotPotV3FundUserActions](3-开发者/2-合约介绍/2-interfaces/2-fund/IHotPotV3FundUserActions.md)
+        - [External](3-开发者/2-合约介绍/2-interfaces/3-external/README.md)
+
+            - [IWETH9](3-开发者/2-合约介绍/2-interfaces/3-external/IWETH9.md)
+        - [IHotPot](3-开发者/2-合约介绍/2-interfaces/IHotPot.md)
+        - [IHotPotV3Fund](3-开发者/2-合约介绍/2-interfaces/IHotPotV3Fund.md)
+        - [IHotPotV3FundController](3-开发者/2-合约介绍/2-interfaces/IHotPotV3FundController.md)
+        - [IHotPotV3FundDeployer](3-开发者/2-合约介绍/2-interfaces/IHotPotV3FundDeployer.md)
+        - [IHotPotV3FundERC20](3-开发者/2-合约介绍/2-interfaces/IHotPotV3FundERC20.md)
+        - [IHotPotV3FundFactory](3-开发者/2-合约介绍/2-interfaces/IHotPotV3FundFactory.md)
+        - [IMulticall](3-开发者/2-合约介绍/2-interfaces/IMulticall.md)
+    - [Libraries](3-开发者/2-合约介绍/3-libraries/README.md)
+
+        - [Array2D](3-开发者/2-合约介绍/3-libraries/Array2D.md)
+        - [FixedPoint64](3-开发者/2-合约介绍/3-libraries/FixedPoint64.md)
+        - [PathPrice](3-开发者/2-合约介绍/3-libraries/PathPrice.md)
+        - [Position](3-开发者/2-合约介绍/3-libraries/Position.md)
+    - [HotPotV3Fund](3-开发者/2-合约介绍/HotPotV3Fund.md)
+    - [HotPotV3FundController](3-开发者/2-合约介绍/HotPotV3FundController.md)
+    - [HotPotV3FundDeployer](3-开发者/2-合约介绍/HotPotV3FundDeployer.md)
+    - [HotPotV3FundFactory](3-开发者/2-合约介绍/HotPotV3FundFactory.md)
+- [Deploys](3-开发者/3-Deploys.md)
