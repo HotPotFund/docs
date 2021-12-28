@@ -1,4 +1,4 @@
-# <img src="..\assets\imgs\logo.png" alt="Hotpot" width=5% /> 概述
+# <img src="..\assets\imgs\logo.png" alt="Hotpot"/> 概述
 
 > 欢迎来到 Hotpot 文档库！文档库为您提供了 Hotpot V3 平台的操作手册和相关资源。
 
