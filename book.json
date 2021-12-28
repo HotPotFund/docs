@@ -27,11 +27,10 @@
         "sharing-plus",
         "fontsettings",
         "livereload",
-
         "summary",
         "multipart",
         "language-picker",
-
+        "favicon",
         "hide-element",
         "insert-logo",
         "-theme-comscore",
