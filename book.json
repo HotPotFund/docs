@@ -61,7 +61,7 @@
         "favicon": "/assets/imgs/favicon.ico",
         "insert-logo": {
             "url": "/assets/imgs/logo.png",
-            "style": "background: none; max-height: 100px; min-height: 100px"
+            "style": "background: none;"
         },
         "hide-element": {
             "elements": [""]
