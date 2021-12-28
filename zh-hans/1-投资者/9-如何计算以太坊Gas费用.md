@@ -4,7 +4,7 @@
 
 为了在以太坊上完成操作，您的钱包中必须持有一定数量的 ETH，用于支付 Gas。每笔交易所需 Gas 费用的计算公式是：
 
-$$Gas 消耗量 * Gas 单价$$
+$$Gas\ Used\ *\ Gas\ Price$$​​
 
 ## Gas 单价(Gas Price)
 
