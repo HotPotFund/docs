@@ -30,13 +30,15 @@
         "summary",
         "multipart",
         "language-picker",
-        "favicon",
         "hide-element",
         "insert-logo",
         "-theme-comscore",
         "-favicon",
-        "custom-favicon",
+        "-custom-favicon",
+        "favicon-absolute",
         "github",
+        "-popup",
+        "lightbox",
         "code",
         "splitter",
         "tbfed-pagefooter",
@@ -48,6 +50,7 @@
         "latex-codecogs"
     ],
     "pluginsConfig": {
+        "//custom-favicon":"",
         "-favicon": {
             "shortcut": "/assets/imgs/favicon.ico",
             "bookmark": "/assets/imgs/favicon.ico",
@@ -58,6 +61,10 @@
             }
         },
         "favicon": "/assets/imgs/favicon.ico",
+        "favicon-absolute":{
+            "favicon": "/assets/imgs/favicon.ico",
+            "appleTouchIconPrecomposed152": "/assets/imgs/apple-touch-icon-180x180.png"
+        },
         "insert-logo": {
             "url": "/assets/imgs/logo.png",
             "style": "background: none;"
@@ -102,10 +109,10 @@
             }
         },
         "anchor-navigation-ex": {
-            "showLevel": false,
-            "associatedWithSummary": true,
+            "showLevel": true,
+            "associatedWithSummary": false,
             "printLog": false,
-            "multipleH1": true,
+            "multipleH1": false,
             "mode": "float",
             "showGoTop":true,
             "float": {
@@ -122,12 +129,20 @@
                 "level3Icon": "fa fa-hand-o-right"
             }
         },
+        "lightbox": {
+            "includeJQuery": false,
+            "sameUuid": true,
+            "options": {
+                "resizeDuration": 500,
+                "wrapAround": false
+            }
+        },
         "language-picker": {
             "grid-columns": 3
         }
     },
     "styles": {
-        "website": "assets/styles/website.less",
+        "website": "assets/styles/website.css",
         "ebook": "assets/styles/ebook.less",
         "pdf": "assets/styles/pdf.less",
         "mobi": "assets/styles/mobi.less",
