@@ -27,7 +27,7 @@
         "sharing-plus",
         "fontsettings",
         "livereload",
-        "summary",
+        "-summary",
         "multipart",
         "language-picker",
         "hide-element",
