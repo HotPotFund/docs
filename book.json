@@ -47,7 +47,8 @@
         "expandable-chapters-small",
         "-ancre-navigation",
         "anchor-navigation-ex",
-        "latex-codecogs"
+        "latex-codecogs",
+        "flexible-linkcard"
     ],
     "pluginsConfig": {
         "//custom-favicon":"",
