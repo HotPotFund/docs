@@ -70,3 +70,8 @@
     - [HotPotV3FundDeployer](3-开发者/2-Contracts/HotPotV3FundDeployer.md)
     - [HotPotV3FundFactory](3-开发者/2-Contracts/HotPotV3FundFactory.md)
 - [Deploys](3-开发者/3-Deploys.md)
+
+## 资源
+
+- [白皮书](4-资源/1-白皮书.md)
+- [审计报告](4-资源/2-审计报告.md)

@@ -45,3 +45,8 @@
     - [HotPotV3FundDeployer](3-Developer/2-Contracts/HotPotV3FundDeployer.md)
     - [HotPotV3FundFactory](3-Developer/2-Contracts/HotPotV3FundFactory.md)
 - [Deploys](3-Developer/3-Deploys.md)
+
+## Resource
+
+- [White Pager](4-Resource/1-White Pager.md)
+- [Audit Report](4-Resource/2-Audit Report.md)
