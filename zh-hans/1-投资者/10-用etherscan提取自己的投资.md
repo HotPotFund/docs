@@ -16,7 +16,7 @@
    
 4. 点击打开该基金的详情，找到合约地址并复制: 
 
-   ![image-20220119114938607](./用etherscan提取自己的投资.assets/image-20220119114938607.png)
+   ![image-20220119114938607](../../assets/imgs/image-20220119114938607.png)
 
 5. 为了保证query也无法打开的时候能够访问，建议自行保留该合约地址.
 
@@ -27,16 +27,11 @@
 1. 打开etherscan网站: https://etherscan.io/ 或 https://cn.etherscan.com/
 
 2. 打开合约地址和ABI操作窗口，这里以其中一个Set举例，其组合后的地址为：https://etherscan.io/address/0x55781b86fa7123710791d21079f131d251213aa6#readContract
-
    ![image-20220119122915451](../../assets/imgs/image-20220119122915451.png)
-
    
-
 3. 查询“我的份额”，切换到Read Contract选项，如下所示：
 
    ![image-20220119123426860](../../assets/imgs/image-20220119123426860.png)
-
-   
 
 4. 操作withdraw方法提取资产，如下所示：
 
