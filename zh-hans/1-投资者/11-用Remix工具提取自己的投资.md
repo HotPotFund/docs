@@ -25,9 +25,19 @@
    1. 查询“我的份额”合约接口：https://github.com/OpenZeppelin/openzeppelin-contracts/blob/solc-0.7/contracts/token/ERC20/IERC20.sol
    2. 发起“提取”操作合约接口：https://github.com/HotPotFund/HotPotFundsV3/blob/main/contracts/interfaces/fund/IHotPotV3FundUserActions.sol
 
-   ![image-20220118173836912](../../assets/imgs/image-20220118173836912.png)
+   ![image-20220118173836912](../../assets/imgs/image-20220118173836912.png)![image-20220119104708084](../../assets/imgs/image-20220119104708084.png)
 
-   ![image-20220119104708084](../../assets/imgs/image-20220119104708084.png)
+   如果报以下这种错误，请继续向下看，如果没有请跳过：
+
+   ![image-20220119163239370](../../assets/imgs/image-20220119163239370.png)
+
+   ![image-20220119163814113](../../assets/imgs/image-20220119163814113.png)
+
+   
+
+   回到remix窗口，按如下方式新建文件方式导入：
+
+   ![image-20220119163038971](../../assets/imgs/image-20220119163038971.png)
 
    
 
