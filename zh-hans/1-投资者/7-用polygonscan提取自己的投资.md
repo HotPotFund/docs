@@ -1,4 +1,4 @@
-# 用etherscan提取自己在ethereum网络上的投资
+# 用polygonscan提取自己在polygon网络上的投资
 
 
 
@@ -7,7 +7,7 @@
 1. 打开query:
    [https://query.hotpot.fund](https://query.hotpot.fund/) 或 [https://query.hotpot.financial](https://query.hotpot.financial/)
    
-2. 切换到 ethereum 网络 
+2. 切换到 polygon 网络 
 
    ![image-20220119103033057](../../assets/imgs/image-20220119103033057.png)
 
@@ -22,12 +22,12 @@
 
 
 
-## 第二步 etherscan 操作
+## 第二步 polygonscan 操作
 
-1. 打开etherscan网站: https://etherscan.io/ 或 https://cn.etherscan.com/
+1. 打开polygonscan网站: https://polygonscan.com/
 
-2. 打开合约地址和ABI操作窗口，这里以其中一个Set举例，其组合后的地址为：https://etherscan.io/address/0x55781b86fa7123710791d21079f131d251213aa6#readContract
-   ![image-20220119122915451](../../assets/imgs/image-20220119122915451.png)
+2. 打开合约地址和ABI操作窗口，这里以其中一个Set举例，其组合后的地址为：https://polygonscan.com/address/0x0057e03bf57e0dab2a10445afa7d3be99a6832c1#readContract
+   ![image-20220119122915451](../../assets/imgs/image-20220124095149267.png)
    
 3. 查询“我的份额”，“总的份额”，“总的资产”，切换到Read Contract选项，如下所示：
 
@@ -58,4 +58,3 @@
      >
      > + 设一个很大的时间戳：10000000000
      > + 未来1个小时内：60 * 60 + nowTimestamp，其中nowTimestamp是当前时刻的时间戳(秒为单位)
-

@@ -13,6 +13,7 @@
 - [如何计算以太坊Gas费用](1-投资者/4-如何计算以太坊Gas费用.md)
 - [用Etherscan提取自己的投资](1-投资者/5-用etherscan提取自己的投资.md)
 - [用Remix工具提取自己的投资](1-投资者/6-用Remix工具提取自己的投资.md)
+- [用polygonscan提取自己的投资](1-投资者/7-用polygonscan提取自己的投资.md)
 
 ## Set经理
 
